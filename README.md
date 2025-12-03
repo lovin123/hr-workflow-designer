@@ -6,31 +6,7 @@ A React + React Flow based visual workflow designer for HR processes like onboar
 
 ### Folder Structure
 
-app
- ├── page.tsx .................... Main entry point
- ├── layout.tsx .................. Root layout & metadata
- └── globals.css ................. Global theme & styling
-
-components
- └── workflow
-      ├── canvas/ ................. React Flow canvas (nodes, edges, viewport)
-      ├── forms/ .................. Configuration forms for each node type
-      ├── nodes/ .................. Custom node UI components
-      ├── sandbox/ ................ Workflow simulation & test-run panel
-      ├── sidebar/ ................ Node palette, controls, toolbox
-      └── workflow-designer.tsx ... Main orchestrating component
-
-hooks
- ├── use-workflow.ts ............. Workflow state (nodes, edges, selection)
- └── use-automations.ts .......... Fetch & sync automations from API
-
-lib
- └── api
-      ├── mock-data.ts ............ Mock automations, validation, demo flows
-      └── workflow-api.ts ......... Backend API interface (CRUD, validate, run)
-
-types
- └── workflow.ts ................. Workflow, Node, Edge, Automation TS types
+<img width="667" height="578" alt="image" src="https://github.com/user-attachments/assets/1ddf4acc-1b82-45d3-bb9e-0c3a005c1841" />
 
 ### Design Choices
 
