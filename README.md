@@ -6,7 +6,6 @@ A React + React Flow based visual workflow designer for HR processes like onboar
 
 ### Folder Structure
 
-\`\`\`
 ├── app/
 │   ├── page.tsx              # Main entry point
 │   ├── layout.tsx            # Root layout with metadata
@@ -28,7 +27,6 @@ A React + React Flow based visual workflow designer for HR processes like onboar
 │       └── workflow-api.ts   # API layer
 └── types/
     └── workflow.ts           # TypeScript definitions
-\`\`\`
 
 ### Design Choices
 
