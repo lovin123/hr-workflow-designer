@@ -6,27 +6,31 @@ A React + React Flow based visual workflow designer for HR processes like onboar
 
 ### Folder Structure
 
-├── app/
-│   ├── page.tsx              # Main entry point
-│   ├── layout.tsx            # Root layout with metadata
-│   └── globals.css           # Theme and styling
-├── components/
-│   └── workflow/
-│       ├── canvas/           # React Flow canvas component
-│       ├── forms/            # Node configuration forms
-│       ├── nodes/            # Custom node components
-│       ├── sandbox/          # Simulation panel
-│       ├── sidebar/          # Node palette & controls
-│       └── workflow-designer.tsx  # Main orchestrating component
-├── hooks/
-│   ├── use-workflow.ts       # Workflow state management
-│   └── use-automations.ts    # API data fetching
-├── lib/
-│   └── api/
-│       ├── mock-data.ts      # Mock automations & validation
-│       └── workflow-api.ts   # API layer
-└── types/
-    └── workflow.ts           # TypeScript definitions
+app
+ ├── page.tsx .................... Main entry point
+ ├── layout.tsx .................. Root layout & metadata
+ └── globals.css ................. Global theme & styling
+
+components
+ └── workflow
+      ├── canvas/ ................. React Flow canvas (nodes, edges, viewport)
+      ├── forms/ .................. Configuration forms for each node type
+      ├── nodes/ .................. Custom node UI components
+      ├── sandbox/ ................ Workflow simulation & test-run panel
+      ├── sidebar/ ................ Node palette, controls, toolbox
+      └── workflow-designer.tsx ... Main orchestrating component
+
+hooks
+ ├── use-workflow.ts ............. Workflow state (nodes, edges, selection)
+ └── use-automations.ts .......... Fetch & sync automations from API
+
+lib
+ └── api
+      ├── mock-data.ts ............ Mock automations, validation, demo flows
+      └── workflow-api.ts ......... Backend API interface (CRUD, validate, run)
+
+types
+ └── workflow.ts ................. Workflow, Node, Edge, Automation TS types
 
 ### Design Choices
 
