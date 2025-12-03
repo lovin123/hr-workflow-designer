@@ -8,6 +8,12 @@ A React + React Flow based visual workflow designer for HR processes like onboar
 
 <img width="667" height="578" alt="image" src="https://github.com/user-attachments/assets/1ddf4acc-1b82-45d3-bb9e-0c3a005c1841" />
 
+### Screenshots
+<img width="1917" height="1026" alt="hr-worflow-1" src="https://github.com/user-attachments/assets/e7612cf8-f11d-4b13-ad98-b45dd2ef8e04" />
+<img width="1918" height="1025" alt="hr-workflow-2" src="https://github.com/user-attachments/assets/19a74ddc-3c98-4df5-abd3-ff39f71f4328" />
+<img width="1916" height="1022" alt="hr-worflow-3" src="https://github.com/user-attachments/assets/f8b5888e-1e48-4efb-b264-3808b3d4d21e" />
+<img width="1918" height="1028" alt="hr-worflow-4" src="https://github.com/user-attachments/assets/b9bdb658-a360-45d4-a6c5-186ed619acc0" />
+
 ### Design Choices
 
 1. **Separation of Concerns**
